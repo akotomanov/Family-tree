@@ -2,7 +2,7 @@
 
 Interactive family tree viewer built with React and React Flow, designed from a Figma prototype.
 
-![Screenshot](../family_tree.png)
+![Screenshot](../family-tree-app/family_tree.png)
 
 [Demo](https://family-tree.kotomanov.app)
 

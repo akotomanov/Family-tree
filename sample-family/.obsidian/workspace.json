@@ -1,0 +1,265 @@
+{
+  "main": {
+    "id": "9af4c53f8eb1296c",
+    "type": "split",
+    "children": [
+      {
+        "id": "10d9ea88cd7aa10f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ccae8ceaced4f53",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Template.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Template"
+            }
+          },
+          {
+            "id": "a7c57f0f675c56f9",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "62752c8d54ce8b9c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Family database.base",
+                "viewName": "Table"
+              },
+              "pinned": true,
+              "icon": "lucide-table",
+              "title": "Family database"
+            }
+          },
+          {
+            "id": "2aca184967252fd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Brian Johnson.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Brian Johnson"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "af2c41df826ccece",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0e554f5a9e3617b",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Family database.base",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Family database"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "40ddef5815cec947",
+    "type": "split",
+    "children": [
+      {
+        "id": "202bb3420a9848ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e40d902cf0b2ab83",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f1c25152f5d2b585",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6157b65f26ca477e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "87ec3718c962886b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f65b5311ca488853",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3678aeefe9f3797",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Family database.base",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Family database"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "templates:Insert template": false
+    }
+  },
+  "active": "62752c8d54ce8b9c",
+  "lastOpenFiles": [
+    "obsidian.png",
+    "Brian Johnson.md",
+    "Family database.base",
+    "Alexis Christiansen.md",
+    "Adam Smith.md",
+    "Patty O'Conner.md",
+    "Sally Schneider.md",
+    "Clinton Johnson.md",
+    "Hubert Johnson.md",
+    "Bertha Hodkiewicz.md",
+    "Eleanor Johnson.md",
+    "Oscar Johnson.md",
+    "Bryant Johnson.md",
+    "Photos/Alexis Christiansen.png",
+    "Lester Johnson Christiansen.md",
+    "Photos/Lester Johnson Christiansen.png",
+    "Mabel Johnson Christiansen.md",
+    "Photos/Mabel Johnson Christiansen.png",
+    "Hans Christiansen.md",
+    "Madina Christiansen.md",
+    "Alfred Christiansen.md",
+    "Photos/Bryant Johnson.png",
+    "Photos/Oscar Johnson.png",
+    "Photos/Eleanor Johnson.png",
+    "Photos/Patty O'Conner.png",
+    "Harriet Carter.md",
+    "Elisabeth O'Conner.md",
+    "John O'Conner.md",
+    "Adam Johnson.md",
+    "Priscilla Altenwerth.md",
+    "Oliver Schneider.md",
+    "Photos/Sally Schneider.png",
+    "Photos/Clinton Johnson.png",
+    "Photos/Bertha Hodkiewicz.png",
+    "Josef Hodkiewicz.md",
+    "Photos",
+    "Haroun Gajraj.md",
+    "Family tree.canvas",
+    "Templates/Template.md",
+    "Djami's family",
+    "Photos/амира_муфталиева",
+    "Photos/адриан_ахмадеев",
+    "Photos/рамазан_муфталиев",
+    "Photos/семён_чекменёв",
+    "Photos/лидия_чекменёва",
+    "Photos/полина_осколкова",
+    "Photos/пётр_малаев"
+  ]
+}

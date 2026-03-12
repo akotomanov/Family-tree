@@ -2,7 +2,7 @@
 
 Interactive family tree viewer built with React and [React Flow](https://reactflow.dev/). Store your family data in an [Obsidian](https://obsidian.md/) vault as markdown files, then visualize it as an explorable tree.
 
-![Screenshot](family_tree.png)
+![Screenshot](family-tree-app/family_tree.png)
 
 [Demo](https://family-tree.kotomanov.app)
 
@@ -39,6 +39,8 @@ Open http://localhost:5173 — you should see a sample family tree.
 ## Use Your Own Data
 
 ### Option A: Start with an Obsidian vault
+
+![Obsidian](sample-family/obsidian.png)
 
 1. Create a vault (or use an existing one) with one markdown file per person
 2. Use this frontmatter format:
