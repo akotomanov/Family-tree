@@ -2,7 +2,7 @@
 
 Interactive family tree viewer built with React and [React Flow](https://reactflow.dev/). Store your family data in an [Obsidian](https://obsidian.md/) vault as markdown files, then visualize it as an explorable tree.
 
-![Family Tree App](family-tree-app/public/vite.svg)
+![Screenshot](family_tree.png)
 
 ## Features
 
