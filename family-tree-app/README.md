@@ -2,6 +2,9 @@
 
 Interactive family tree viewer built with React and React Flow, designed from a Figma prototype.
 
+![Screenshot](../family_tree.png)
+
+
 ## Quick Start
 
 ```bash
