@@ -1,0 +1,41 @@
+.expand-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 24px;
+  background: var(--color-bg-1);
+  border: 1px solid var(--color-low-emphasis);
+  border-radius: var(--radius-300);
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.expand-button:hover {
+  background: var(--color-bg-2);
+}
+
+.expand-button__icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.expand-button__icon svg {
+  width: 20px;
+  height: 18px;
+  transform: rotate(180deg);
+  color: var(--color-medium-emphasis);
+}
+
+/* Hide React Flow handles */
+.expand-button .react-flow__handle {
+  width: 1px;
+  height: 1px;
+  min-width: 0;
+  min-height: 0;
+  border: none;
+  background: transparent;
+  opacity: 0;
+}

@@ -1,0 +1,32 @@
+filters:
+  and:
+    - '!file.name.endsWith(".base")'
+    - '!file.name.endsWith(".canvas")'
+    - file.folder != "Photos"
+    - file.folder != "Templates"
+    - file.folder != "Archive"
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - Sex
+      - Date of birth
+      - Place of birth
+      - Parents
+      - Partner
+      - Children
+      - Siblings
+      - Date of death
+      - Place of death
+    columnSize:
+      note.Place of birth: 118
+      note.Parents: 182
+      note.Partner: 204
+      note.Children: 211
+  - type: cards
+    name: View
+    sort:
+      - property: file.name
+        direction: ASC
+    image: file.file

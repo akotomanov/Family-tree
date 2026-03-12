@@ -1,0 +1,21 @@
+{
+  "name": "family-tree-scripts",
+  "version": "1.0.0",
+  "description": "Scripts to parse GEDCOM and sync with Obsidian vault",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "parse": "node index.js --parse",
+    "conflicts": "node index.js --check-conflicts",
+    "photos": "node index.js --download-photos",
+    "sync": "node index.js --sync",
+    "generate-json": "node generate-json.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^17.3.1",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0",
+    "read-gedcom": "^0.3.2"
+  }
+}

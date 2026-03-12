@@ -1,0 +1,27 @@
+# Private configuration (contains paths to personal data)
+scripts/.env
+
+# Generated reports
+scripts/conflicts.md
+scripts/sync-report.md
+
+# Generated family data (rebuild with: cd scripts && node generate-json.js)
+family-tree-app/public/data.json
+family-tree-app/public/photos/*
+!family-tree-app/public/photos/.gitkeep
+
+# GEDCOM files (private family data)
+*.ged
+
+# Dependencies
+node_modules/
+
+# Build output
+family-tree-app/dist/
+
+# OS files
+.DS_Store
+
+# IDE / Claude
+.claude/
+CLAUDE.md

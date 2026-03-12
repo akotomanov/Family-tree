@@ -1,0 +1,46 @@
+.control-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 40px;
+}
+
+.control-btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg-1);
+  border: 0.5px solid var(--color-low-emphasis);
+  cursor: pointer;
+  padding: 8px;
+  color: var(--color-medium-emphasis);
+}
+
+.control-btn:hover {
+  color: var(--color-high-emphasis);
+  background: var(--color-bg-2);
+}
+
+.control-btn svg {
+  width: 24px;
+  height: 24px;
+}
+
+.control-btn--standalone {
+  border-radius: var(--radius-050);
+}
+
+.control-btn-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.control-btn-group .control-btn:first-child {
+  border-radius: var(--radius-050) var(--radius-050) 0 0;
+}
+
+.control-btn-group .control-btn:last-child {
+  border-radius: 0 0 var(--radius-050) var(--radius-050);
+}
