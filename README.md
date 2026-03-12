@@ -4,6 +4,8 @@ Interactive family tree viewer built with React and [React Flow](https://reactfl
 
 ![Screenshot](family_tree.png)
 
+[Demo](https://family-tree.kotomanov.app)
+
 ## Features
 
 - Interactive tree with pan, zoom, and click-to-explore
