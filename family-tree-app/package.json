@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node ../scripts/generate-json.js && vite build",
+    "build": "npm install --prefix ../scripts && node ../scripts/generate-json.js && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
